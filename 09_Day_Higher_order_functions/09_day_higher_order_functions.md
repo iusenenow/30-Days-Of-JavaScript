@@ -87,7 +87,7 @@ const higherOrder = n => {
 console.log(higherOrder(2)(3)(10))
 ```
 
-Let us see were we use call back functions.For instance the _forEach_ method uses call back.
+Let us see where we use call back functions. For instance the _forEach_ method uses call back.
 
 ```js
 const numbers = [1, 2, 3, 4]
@@ -97,7 +97,7 @@ const sumArray = arr => {
   const callBack = function(element) {
     sum += element
   }
-  numbers.forEach(callback)
+  arr.forEach(callback)
   return sum
 
 }
@@ -105,7 +105,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 The above example can be simplified as follows:
@@ -115,7 +115,7 @@ const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
-  numbers.forEach(function(element) {
+  arr.forEach(function(element) {
     sum += element
   })
   return sum
@@ -125,7 +125,7 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
-15
+10
 ```
 
 ### setting time
