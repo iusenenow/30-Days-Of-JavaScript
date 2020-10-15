@@ -40,11 +40,11 @@
 
 ## Classes
 
-JavaScript is an object oriented programming language. Everything in JavScript is an object, with its properties and methods. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
+JavaScript is an object oriented programming language. Everything in JavaScript is an object, with its properties and methods. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
 
 Once we create a class we can create object from it whenever we want. Creating an object from a class is called class instantiation.
 
-In the object section, we saw how to create an object literal. Object literal is a singleton. If we want to get a similar object , we have to write it. However, class allows to create many objects. This helps to reduce amount of code and repetition of code.
+In the object section, we saw how to create an object literal. Object literal is a singleton. If we want to get a similar object, we have to write it. However, class allows to create many objects. This helps to reduce amount of code and repetition of code.
 
 ### Defining a classes
 
@@ -66,7 +66,7 @@ class Person {
 }
 ```
 
-We have created an Person class but it does not have any thing inside.
+We have created an Person class but it does not have anything inside.
 
 ### Class Instantiation
 
@@ -92,7 +92,7 @@ Let use the class constructor to pass different properties for the class.
 
 ### Class Constructor
 
-The constructor is a builtin function which allows as to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
+The constructor is a builtin function which allows us to create a blueprint for our object. The constructor function starts with a keyword constructor followed by a parenthesis. Inside the parenthesis we pass the properties of the object as parameter. We use the _this_ keyword to attach the constructor parameters with the class.
 
 The following Person class constructor has firstName and lastName property. These properties are attached to the Person class using _this_ keyword. _This_ refers to the class itself.
 
@@ -114,7 +114,7 @@ console.log(person)
 Person {firstName: undefined, lastName}
 ```
 
-All the keys of the object are undefined. When ever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.
+All the keys of the object are undefined. Whenever we instantiate we should pass the value of the properties. Let us pass value at this time when we instantiate the class.
 
 ```js
 class Person {
@@ -248,7 +248,7 @@ test.js:19 Lidiya Tekle
 
 ### Properties with initial value
 
-When we create a class for some properties we may have an initial value. For instance if you are playing a game, you starting score will be zero. So, we may have a starting score or score which is zero. In other way, we may have an initial skill and we will acquire some skill after some time.
+When we create a class for some properties we may have an initial value. For instance if you are playing a game, your starting score will be zero. So, we may have a starting score or score which is zero. In other way, we may have an initial skill and we will acquire some skill after some time.
 
 ```js
 class Person {
